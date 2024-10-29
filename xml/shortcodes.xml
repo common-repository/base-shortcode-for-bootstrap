@@ -1,0 +1,720 @@
+<?xml version="1.0"?>
+<shortcode_tree>
+    <groups>
+        <groups_id>scaffolding</groups_id>
+        <groups_label>Scaffolding</groups_label>
+        <shortcode>
+            <shortcode_id>columns</shortcode_id>
+            <shortcode_label>Columns</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>column</item_name>
+                    <item_title>Column Number</item_title>
+                    <item_mandatory>0</item_mandatory>
+                    <item_for_sc_fg>1</item_for_sc_fg>
+                    <item_type>select</item_type>
+                    <item_option_titles>Number of columns..., Option 1, Option 2, Option 3, Option 4, Option 6</item_option_titles>
+                    <item_option_values>0, 12, 2, 3, 4, 6</item_option_values>
+                    <item_default_val>0</item_default_val>
+                    <item_other>
+                        <p>tmp</p>
+                        <p>tmp</p>
+                    </item_other>
+                </pitem>
+            </pitem_grp>
+        </shortcode>
+    </groups>
+    <groups>
+        <groups_id>base_css</groups_id>
+        <groups_label>Base CSS</groups_label>
+        <shortcode>
+            <shortcode_id>button</shortcode_id>
+            <shortcode_label>Button</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>label</item_name>
+                    <item_title>Label</item_title>
+                    <item_mandatory>1</item_mandatory>
+                    <item_type>input</item_type>
+                </pitem>
+                <pitem>
+                    <item_name>link_url</item_name>
+                    <item_title>Link URL</item_title>
+                    <item_type>input</item_type>
+                </pitem>
+                <pitem>
+                    <item_name>block_btn_fg</item_name>
+                    <item_title>Block button flag</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>size</item_name>
+                    <item_title>Size</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Mini, Small, Medium (Default), Large</item_option_titles>
+                    <item_option_values>mini, small, , large</item_option_values>
+                    <item_default_val></item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>type</item_name>
+                    <item_title>Type</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Default (Default), Primary, Danger, Warning, Success, Info, Inverse, Link</item_option_titles>
+                    <item_option_values>, primary, danger, warning, success, info, inverse, link</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>disabled_state</item_name>
+                    <item_title>Disabled state</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>, yes</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>icon</item_name>
+                    <item_title>Icon</item_title>
+                    <item_type>select_icon</item_type>
+                    <item_option_titles>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_titles>
+                    <item_option_values>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_values>
+                    <item_default_val></item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>new_window</item_name>
+                    <item_title>Open by new window?</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                    <item_default_val>no</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>position</item_name>
+                    <item_title>Position</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Left (Default), Center, Right</item_option_titles>
+                    <item_option_values>left, center, right</item_option_values>
+                    <item_default_val>left</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>wrap</item_name>
+                    <item_title>Wrap</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                    <item_default_val>no</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>more</item_name>
+                    <item_title>More</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Stateful, Single toggle, Popover, Modal</item_option_titles>
+                    <item_option_values>no, stateful, single_toggle, popover, modal</item_option_values>
+                    <item_default_val>no</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>loading_text</item_name>
+                    <item_title>Loading text</item_title>
+                    <item_type>input</item_type>
+                    <item_mandatory>1</item_mandatory>
+                    <item_hide_fg>1</item_hide_fg>
+                </pitem>
+                <pitem>
+                    <item_name>more_title</item_name>
+                    <item_title>Title</item_title>
+                    <item_type>input</item_type>
+                    <item_mandatory>1</item_mandatory>
+                    <item_hide_fg>1</item_hide_fg>
+                </pitem>
+                <pitem>
+                    <item_name>more_content</item_name>
+                    <item_title>Content</item_title>
+                    <item_type>textarea</item_type>
+                    <item_mandatory>1</item_mandatory>
+                    <item_hide_fg>1</item_hide_fg>
+                </pitem>
+                <pitem>
+                    <item_name>more_position</item_name>
+                    <item_title>Position</item_title>
+                    <item_type>select</item_type>
+                    <item_hide_fg>1</item_hide_fg>
+                    <item_option_titles>Left (Default), Right, Top, Bottom</item_option_titles>
+                    <item_option_values>left, right, top, bottom</item_option_values>
+                    <item_default_val>right</item_default_val>
+                </pitem>
+            </pitem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>image</shortcode_id>
+            <shortcode_label>Image</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>img_url</item_name>
+                    <item_title>Image URL</item_title>
+                    <item_mandatory>1</item_mandatory>
+                    <item_type>file_upload</item_type>
+                </pitem>
+                <pitem>
+                    <item_name>link_url</item_name>
+                    <item_title>Link URL</item_title>
+                    <item_type>input</item_type>
+                </pitem>
+                <pitem>
+                    <item_name>alt</item_name>
+                    <item_title>Alt text</item_title>
+                    <item_mandatory>0</item_mandatory>
+                    <item_type>input</item_type>
+                    <item_default_val></item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>type</item_name>
+                    <item_title>Type</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Rounded (Default), Circle, Rectangle</item_option_titles>
+                    <item_option_values>rounded, circle, rectangle</item_option_values>
+                    <item_default_val>rounded</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>border</item_name>
+                    <item_title>Border</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                    <item_default_val>no</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>position</item_name>
+                    <item_title>Position</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Left (Default), Center, Right</item_option_titles>
+                    <item_option_values>left, center, right</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>wrap</item_name>
+                    <item_title>Wrap</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>new_window</item_name>
+                    <item_title>Open by new window?</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                    <item_default_val>no</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>width_option</item_name>
+                    <item_title>Width Option</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Original (Default), Full, Custom</item_option_titles>
+                    <item_option_values>original, full, custom</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>width</item_name>
+                    <item_title>Width</item_title>
+                    <item_mandatory>0</item_mandatory>
+                    <item_type>input</item_type>
+                    <item_default_val></item_default_val>
+                    <item_unit>px</item_unit>
+                    <item_hide_fg>1</item_hide_fg>
+                </pitem>
+                <pitem>
+                    <item_name>height</item_name>
+                    <item_title>Height</item_title>
+                    <item_mandatory>0</item_mandatory>
+                    <item_type>input</item_type>
+                    <item_default_val></item_default_val>
+                    <item_unit>px</item_unit>
+                    <item_hide_fg>1</item_hide_fg>
+                </pitem>
+            </pitem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>icon</shortcode_id>
+            <shortcode_label>Icons by Glyphicons</shortcode_label>
+            <shortcode_priview_option>0</shortcode_priview_option>
+            <pitem_grp>
+                <pitem>
+                    <item_name>icon</item_name>
+                    <item_title>Icon</item_title>
+                    <item_type>select_icon</item_type>
+                    <item_option_titles>icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_titles>
+                    <item_option_values>icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_values>
+                    <item_default_val>icon-music</item_default_val>
+                </pitem>
+            </pitem_grp>
+        </shortcode>
+    </groups>
+    <groups>
+        <groups_id>components</groups_id>
+        <groups_label>Components</groups_label>
+        <shortcode>
+            <shortcode_id>single_button_group</shortcode_id>
+            <shortcode_label>Single button group</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>size</item_name>
+                    <item_title>Size</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Mini, Small, Medium (Default), Large</item_option_titles>
+                    <item_option_values>mini, small, , large</item_option_values>
+                    <item_default_val></item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>type</item_name>
+                    <item_title>Type</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Default (Default), Primary, Danger, Warning, Success, Info, Inverse, Link</item_option_titles>
+                    <item_option_values>, primary, danger, warning, success, info, inverse, link</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>position</item_name>
+                    <item_title>Position</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Left (Default), Center, Right</item_option_titles>
+                    <item_option_values>left, center, right</item_option_values>
+                    <item_default_val>left</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>orient</item_name>
+                    <item_title>Orient</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Horizontally (Default), Vertically</item_option_titles>
+                    <item_option_values>horizontally, vertically</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>wrap</item_name>
+                    <item_title>Wrap</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                    <item_default_val>no</item_default_val>
+                </pitem>
+            </pitem_grp>
+            <citem_grp>
+                <cshortcode_id>single_button</cshortcode_id>
+                <cshortcode_default_num>2</cshortcode_default_num>
+                <citem>
+                    <item_name>label</item_name>
+                    <item_title>Label %number%</item_title>
+                    <item_type>input</item_type>
+                </citem>
+                <citem>
+                    <item_name>link_url</item_name>
+                    <item_title>Link %number% URL</item_title>
+                    <item_type>input</item_type>
+                </citem>
+                <citem>
+                    <item_name>new_window</item_name>
+                    <item_title>Open by new window?</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                    <item_default_val>no</item_default_val>
+                </citem>
+                <citem>
+                    <item_name>icon</item_name>
+                    <item_title>Icon %number%</item_title>
+                    <item_type>select_icon</item_type>
+                    <item_option_titles>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_titles>
+                    <item_option_values>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_values>
+                </citem>
+            </citem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>dropdown_button_group</shortcode_id>
+            <shortcode_label>Dropdown button group</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>label</item_name>
+                    <item_title>Label</item_title>
+                    <item_type>input</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </pitem>
+                <pitem>
+                    <item_name>size</item_name>
+                    <item_title>Size</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Mini, Small, Medium (Default), Large</item_option_titles>
+                    <item_option_values>mini, small, , large</item_option_values>
+                    <item_default_val></item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>type</item_name>
+                    <item_title>Type</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Default (Default), Primary, Danger, Warning, Success, Info, Inverse</item_option_titles>
+                    <item_option_values>, primary, danger, warning, success, info, inverse</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>position</item_name>
+                    <item_title>Position</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Left (Default), Center, Right</item_option_titles>
+                    <item_option_values>left, center, right</item_option_values>
+                    <item_default_val>left</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>wrap</item_name>
+                    <item_title>Wrap</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                    <item_default_val>no</item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>submenu_direction</item_name>
+                    <item_title>Submenu direction</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Down (Default), Up</item_option_titles>
+                    <item_option_values>down, up</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>kind</item_name>
+                    <item_title>Kind</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Default (Default), Split</item_option_titles>
+                    <item_option_values>, split</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>icon</item_name>
+                    <item_title>Icon</item_title>
+                    <item_type>select_icon</item_type>
+                    <item_option_titles>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_titles>
+                    <item_option_values>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>link_url</item_name>
+                    <item_title>Root Link URL</item_title>
+                    <item_type>input</item_type>
+                    <item_hide_fg>1</item_hide_fg>
+                </pitem>
+                <pitem>
+                    <item_name>new_window</item_name>
+                    <item_title>Open by new window?</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                    <item_default_val>no</item_default_val>
+                    <item_hide_fg>1</item_hide_fg>
+                </pitem>
+            </pitem_grp>
+            <citem_grp>
+                <cshortcode_id>dropdown_button</cshortcode_id>
+                <cshortcode_default_num>2</cshortcode_default_num>
+                <citem>
+                    <item_name>divider</item_name>
+                    <item_title>Divider</item_title>
+                    <item_type>check</item_type>
+                    <item_default_val>0</item_default_val>
+                </citem>
+                <citem>
+                    <item_name>label</item_name>
+                    <item_title>Label %number%</item_title>
+                    <item_type>input</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </citem>
+                <citem>
+                    <item_name>link_url</item_name>
+                    <item_title>Link %number% URL</item_title>
+                    <item_type>input</item_type>
+                </citem>
+                <citem>
+                    <item_name>new_window</item_name>
+                    <item_title>Open by new window?</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>No (Default), Yes</item_option_titles>
+                    <item_option_values>no, yes</item_option_values>
+                    <item_default_val>no</item_default_val>
+                </citem>
+                <citem>
+                    <item_name>icon</item_name>
+                    <item_title>Icon %number%</item_title>
+                    <item_type>select_icon</item_type>
+                    <item_option_titles>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_titles>
+                    <item_option_values>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_values>
+                </citem>
+            </citem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>tab_group</shortcode_id>
+            <shortcode_label>Tab Group</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>orient</item_name>
+                    <item_title>Orient</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Top (Default), Bottom, Left, Right</item_option_titles>
+                    <item_option_values>, below, left, right</item_option_values>
+                </pitem>
+            </pitem_grp>
+            <citem_grp>
+                <cshortcode_id>tab</cshortcode_id>
+                <cshortcode_default_num>2</cshortcode_default_num>
+                <citem>
+                    <item_name>active</item_name>
+                    <item_title>Active</item_title>
+                    <item_type>radio</item_type>
+                </citem>
+                <citem>
+                    <item_name>tree_view</item_name>
+                    <item_title>Tree View</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Have Not Child Tab (Default), Have Child Tab, Child Tab</item_option_titles>
+                    <item_option_values>, have_child, child</item_option_values>
+                </citem>
+                <citem>
+                    <item_name>label</item_name>
+                    <item_title>Label %number%</item_title>
+                    <item_type>input</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </citem>
+                <citem>
+                    <item_name>icon</item_name>
+                    <item_title>Icon %number%</item_title>
+                    <item_type>select_icon</item_type>
+                    <item_option_titles>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_titles>
+                    <item_option_values>, icon-glass, icon-music, icon-search, icon-envelope, icon-heart, icon-star, icon-star-empty, icon-user, icon-film, icon-th-large, icon-th, icon-th-list, icon-ok, icon-remove, icon-zoom-in, icon-zoom-out, icon-off, icon-signal, icon-cog, icon-trash, icon-home, icon-file, icon-time, icon-road, icon-download-alt, icon-download, icon-upload, icon-inbox, icon-play-circle, icon-repeat, icon-refresh, icon-list-alt, icon-lock, icon-flag, icon-headphones, icon-volume-off, icon-volume-down, icon-volume-up, icon-qrcode, icon-barcode, icon-tag, icon-tags, icon-book, icon-bookmark, icon-print, icon-camera, icon-font, icon-bold, icon-italic, icon-text-height, icon-text-width, icon-align-left, icon-align-center, icon-align-right, icon-align-justify, icon-list, icon-indent-left, icon-indent-right, icon-facetime-video, icon-picture, icon-pencil, icon-map-marker, icon-adjust, icon-tint, icon-edit, icon-share, icon-check, icon-move, icon-step-backward, icon-fast-backward, icon-backward, icon-play, icon-pause, icon-stop, icon-forward, icon-fast-forward, icon-step-forward, icon-eject, icon-chevron-left, icon-chevron-right, icon-plus-sign, icon-minus-sign, icon-remove-sign, icon-ok-sign, icon-question-sign, icon-info-sign, icon-screenshot, icon-remove-circle, icon-ok-circle, icon-ban-circle, icon-arrow-left, icon-arrow-right, icon-arrow-up, icon-arrow-down, icon-share-alt, icon-resize-full, icon-resize-small, icon-plus, icon-minus, icon-asterisk, icon-exclamation-sign, icon-gift, icon-leaf, icon-fire, icon-eye-open, icon-eye-close, icon-warning-sign, icon-plane, icon-calendar, icon-random, icon-comment, icon-magnet, icon-chevron-up, icon-chevron-down, icon-retweet, icon-shopping-cart, icon-folder-close, icon-folder-open, icon-resize-vertical, icon-resize-horizontal, icon-hdd, icon-bullhorn, icon-bell, icon-certificate, icon-thumbs-up, icon-thumbs-down, icon-hand-right, icon-hand-left, icon-hand-up, icon-hand-down, icon-circle-arrow-right, icon-circle-arrow-left, icon-circle-arrow-up, icon-circle-arrow-down, icon-globe, icon-wrench, icon-tasks, icon-filter, icon-briefcase, icon-fullscreen</item_option_values>
+                </citem>
+                <citem>
+                    <item_name>content</item_name>
+                    <item_title>Content</item_title>
+                    <item_mandatory>1</item_mandatory>
+                    <item_type>textarea</item_type>
+                </citem>
+            </citem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>label_badge</shortcode_id>
+            <shortcode_label>Label and badge</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>label</item_name>
+                    <item_title>Label</item_title>
+                    <item_type>input</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </pitem>
+                <pitem>
+                    <item_name>kind</item_name>
+                    <item_title>Kind</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Label (Default), Badge</item_option_titles>
+                    <item_option_values>, badge</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>type</item_name>
+                    <item_title>Type</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Default, Success, Warning, Important, Info, Inverse</item_option_titles>
+                    <item_option_values>, success, warning, important, info, inverse</item_option_values>
+                    <item_default_val></item_default_val>
+                </pitem>
+            </pitem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>tooltip</shortcode_id>
+            <shortcode_label>Tooltip</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>label</item_name>
+                    <item_title>Label</item_title>
+                    <item_type>input</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </pitem>
+                <pitem>
+                    <item_name>content</item_name>
+                    <item_title>Content</item_title>
+                    <item_type>input</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </pitem>
+                <pitem>
+                    <item_name>orient</item_name>
+                    <item_title>Orient</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Top (Default), Bottom, Left, Right</item_option_titles>
+                    <item_option_values>top, bottom, left, right</item_option_values>
+                </pitem>
+            </pitem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>alert</shortcode_id>
+            <shortcode_label>Alert messages</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>title</item_name>
+                    <item_title>Title</item_title>
+                    <item_type>input</item_type>
+                </pitem>
+                <pitem>
+                    <item_name>content</item_name>
+                    <item_title>Content</item_title>
+                    <item_type>textarea</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </pitem>
+                <pitem>
+                    <item_name>type</item_name>
+                    <item_title>Type</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Default, Success, Danger, Info</item_option_titles>
+                    <item_option_values>, success, danger, info</item_option_values>
+                </pitem>
+            </pitem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>collapse_group</shortcode_id>
+            <shortcode_label>Collapse</shortcode_label>
+            <pitem_grp>
+            </pitem_grp>
+            <citem_grp>
+                <cshortcode_id>collapse</cshortcode_id>
+                <cshortcode_default_num>2</cshortcode_default_num>
+                <citem>
+                    <item_name>active</item_name>
+                    <item_title>Active</item_title>
+                    <item_type>radio</item_type>
+                </citem>
+                <citem>
+                    <item_name>title</item_name>
+                    <item_title>Title</item_title>
+                    <item_type>input</item_type>
+                </citem>
+                <citem>
+                    <item_name>content</item_name>
+                    <item_title>Content</item_title>
+                    <item_type>textarea</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </citem>
+            </citem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>gallery_group</shortcode_id>
+            <shortcode_label>Gallery</shortcode_label>
+            <pitem_grp>
+            </pitem_grp>
+            <citem_grp>
+                <cshortcode_id>gallery</cshortcode_id>
+                <cshortcode_default_num>2</cshortcode_default_num>
+                <citem>
+                    <item_name>active</item_name>
+                    <item_title>First Active</item_title>
+                    <item_type>radio</item_type>
+                </citem>
+                <citem>
+                    <item_name>img_file_path</item_name>
+                    <item_title>Image File Path</item_title>
+                    <item_mandatory>1</item_mandatory>
+                    <item_type>file_upload</item_type>
+                </citem>
+                <citem>
+                    <item_name>title</item_name>
+                    <item_title>Title</item_title>
+                    <item_type>input</item_type>
+                </citem>
+                <citem>
+                    <item_name>content</item_name>
+                    <item_title>Content</item_title>
+                    <item_type>textarea</item_type>
+                </citem>
+            </citem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>progress_bar_group</shortcode_id>
+            <shortcode_label>Progress Bar</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>type</item_name>
+                    <item_title>Type</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Basic (Default), Striped, Animated</item_option_titles>
+                    <item_option_values>, striped, animated</item_option_values>
+                </pitem>
+            </pitem_grp>
+            <citem_grp>
+                <cshortcode_id>progress_bar</cshortcode_id>
+                <cshortcode_default_num>1</cshortcode_default_num>
+                <citem>
+                    <item_name>style</item_name>
+                    <item_title>Style</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Default, Success, Danger, Info</item_option_titles>
+                    <item_option_values>, success, danger, info</item_option_values>
+                </citem>
+                <citem>
+                    <item_name>percent</item_name>
+                    <item_title>Percent</item_title>
+                    <item_type>input</item_type>
+                    <item_unit>%</item_unit>
+                    <item_mandatory>1</item_mandatory>
+                </citem>
+            </citem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>media_object</shortcode_id>
+            <shortcode_label>Media object</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>title</item_name>
+                    <item_title>Title</item_title>
+                    <item_type>input</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </pitem>
+                <pitem>
+                    <item_name>link_url</item_name>
+                    <item_title>Link URL</item_title>
+                    <item_type>input</item_type>
+                </pitem>
+                <pitem>
+                    <item_name>img_file_path</item_name>
+                    <item_title>Image File Path</item_title>
+                    <item_mandatory>0</item_mandatory>
+                    <item_type>file_upload</item_type>
+                    <item_default_val></item_default_val>
+                </pitem>
+                <pitem>
+                    <item_name>img_position</item_name>
+                    <item_title>Image position</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Left (Default), Right</item_option_titles>
+                    <item_option_values>, right</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>img_width</item_name>
+                    <item_title>Image width</item_title>
+                    <item_type>input</item_type>
+                    <item_unit>px</item_unit>
+                </pitem>
+                <pitem>
+                    <item_name>img_height</item_name>
+                    <item_title>Image height</item_title>
+                    <item_type>input</item_type>
+                    <item_unit>px</item_unit>
+                </pitem>
+                <pitem>
+                    <item_name>content</item_name>
+                    <item_title>Content</item_title>
+                    <item_type>textarea</item_type>
+                </pitem>
+            </pitem_grp>
+        </shortcode>
+        <shortcode>
+            <shortcode_id>well</shortcode_id>
+            <shortcode_label>Well</shortcode_label>
+            <pitem_grp>
+                <pitem>
+                    <item_name>style</item_name>
+                    <item_title>Style</item_title>
+                    <item_type>select</item_type>
+                    <item_option_titles>Small, Middle (Default), Large</item_option_titles>
+                    <item_option_values>small, , large</item_option_values>
+                </pitem>
+                <pitem>
+                    <item_name>content</item_name>
+                    <item_title>Content</item_title>
+                    <item_type>textarea</item_type>
+                    <item_mandatory>1</item_mandatory>
+                </pitem>
+            </pitem_grp>
+        </shortcode>
+    </groups>
+</shortcode_tree>

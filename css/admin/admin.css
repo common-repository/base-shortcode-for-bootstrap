@@ -1,0 +1,1291 @@
+#base-shortcode-for-bootstrap-region .clearfix {
+    clear: both;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#base-shortcode-for-bootstrap-region .no-xml-file {
+    float: left;
+    text-align: center;
+    margin: 7px 0px 0px 165px;
+    font-weight: bold;
+}
+
+#base-shortcode-for-bootstrap-region .child-datas ul.child-items-sortable li.ui-state-default {
+    background-color: #ededed;
+    padding: 10px 5px 0 0;
+    border: 1px solid #ddd;
+}
+
+#base-shortcode-for-bootstrap-region .nav-sls {
+    padding: 10px 15px;
+    border-bottom: 1px solid #dddddd;
+    background: #ededed;
+    overflow: hidden;
+}
+
+#base-shortcode-for-bootstrap-region .error {
+    border-color: #ff0000;    
+}
+
+#base-shortcode-for-bootstrap-generator {
+    margin: 0px 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+#base-shortcode-for-bootstrap-generator h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#base-shortcode-for-bootstrap-generator p {
+    margin: 5px 10px 0px 0px;
+    padding: 0px !important;
+}
+#base-shortcode-for-bootstrap-generator .child-datas .ctrl,
+#base-shortcode-for-bootstrap-generator .root-datas .ctrl {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#base-shortcode-for-bootstrap-generator .root-datas .ctrl p.desc,
+#base-shortcode-for-bootstrap-generator .child-datas .ctrl p.desc {
+    margin: 0 0 0 135px;
+    font-size: 12px;
+    font-style: italic;
+}
+#base-shortcode-for-bootstrap-generator .ctrl .label {
+    text-align: right;
+    width: 118px;
+    float: left;
+    margin: 5px 4px 0 4px;
+    font-size: 12px;
+}
+
+#base-shortcode-for-bootstrap-generator .ctrl .unit {
+    float: right;
+    margin-top: 3px;
+}
+
+#base-shortcode-for-bootstrap-generator .ctrl input.checkbox {
+    margin: 6px 0 0 3px;
+    width: 15px;
+}
+
+#base-shortcode-for-bootstrap-generator .ctrl input.radiobox {
+    width: 15px;
+    margin-top: 5px;
+}
+#base-shortcode-for-bootstrap-generator .ctrl .radio-grp {
+    margin-top: 5px;
+}
+
+#base-shortcode-for-bootstrap-generator .ctrl input,
+#base-shortcode-for-bootstrap-generator .ctrl select,
+#base-shortcode-for-bootstrap-generator .ctrl textarea {
+    width: 175px;
+}
+#base-shortcode-for-bootstrap-generator .ctrl .select-icon {
+    position: relative;
+    height: 26px;
+    margin: 0px 0 0 1px;
+    line-height: 30px;
+    padding: 0 0 0 6px;
+    width: 167px;
+    float: left;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+}
+#base-shortcode-for-bootstrap-generator .ctrl .select-icon.selected-icon-border {
+    border-color: #aaaaaa;
+}
+#base-shortcode-for-bootstrap-generator .ctrl .select-icon .select-icon-img {
+    position: absolute;
+    background: url('../../imgs/select-bg.png') 0 0 no-repeat;
+    width: 15px;
+    height: 20px;
+    top: 3px;
+    right: 3px;
+}
+
+#base-shortcode-for-bootstrap-generator .ctrl .select-icon .select-click-focus-img {
+    position: absolute;
+    background: url('../../imgs/select-bg.png') 0 -20px no-repeat;
+    width: 15px;
+    height: 20px;
+    top: 3px;
+    right: 3px;
+}
+
+#base-shortcode-for-bootstrap-generator .ctrl .select-icon-input {
+    position: absolute;
+    height: 28px;
+    top: 0px;
+    left: 127px; 
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+}
+
+#base-shortcode-for-bootstrap-generator .ctrl .icons-group {
+    position: absolute;
+    border: 1px solid #7F9DB9;
+    width: 173px;
+    left: 127px;
+    top: 28px;
+    padding: 0;
+    max-height: 160px !important;
+    z-index: 10000;
+    background: #FFF;
+    overflow: auto;
+    cursor: pointer;
+}
+#base-shortcode-for-bootstrap-generator .ctrl .icons-group > ul {
+    margin-top: 0px;
+}
+#base-shortcode-for-bootstrap-generator .ctrl .icons-group > ul > li {
+    margin: 0;
+    padding: 0 0 0 6px;
+    line-height: 20px;
+    cursor: normal;
+}
+#base-shortcode-for-bootstrap-generator .ctrl .icons-group > ul > li:hover,
+#base-shortcode-for-bootstrap-generator .ctrl .icons-group > ul > li:focus {
+    background-color: #316ac5;
+}
+
+#base-shortcode-for-bootstrap-generator .mandatory-star {
+    color: #ff0000;
+}
+
+#base-shortcode-for-bootstrap-region .dev-desc {
+    margin-bottom: 5px;
+    color: #468847;
+    background-color: #DFF0D8;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border: 1px solid #D6E9C6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#base-shortcode-for-bootstrap-region .dev-desc button.close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    line-height: 20px;
+    padding: 0;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    -webkit-appearance: none;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 0 1px 0 #FFF;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+/*
+    from bootstrapper
+*/
+#base-shortcode-for-bootstrap-region .clearfix {
+}
+
+#base-shortcode-for-bootstrap-region .clearfix:before,
+#base-shortcode-for-bootstrap-region .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+#base-shortcode-for-bootstrap-region .ui-state-highlight-bsfb {
+    height: 50px !important;
+    line-height: 120px !important;
+    border: 1px solid #FCEFA1 !important;
+    background: #FBF9EE !important;
+}
+
+#base-shortcode-for-bootstrap-region .clearfix:after {
+    clear: both;
+}
+
+#base-shortcode-for-bootstrap-region .hide {
+    display: none !important;
+}
+
+#base-shortcode-for-bootstrap-region .show {
+    display: block;
+}
+
+#base-shortcode-for-bootstrap-region .pull-right {
+    float: right;
+}
+
+#base-shortcode-for-bootstrap-region .pull-left {
+    float: left;
+}
+
+#base-shortcode-for-bootstrap-region .span6 {
+    width: 50%;
+}
+
+#base-shortcode-for-bootstrap-generator .cdesc {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#base-shortcode-for-bootstrap-region input.you-unit,
+#base-shortcode-for-bootstrap-region select.you-unit {
+    width: 155px;
+}
+#base-shortcode-for-bootstrap-region select {
+    width: 159px;
+}
+
+#base-shortcode-for-bootstrap-region #columns input[class^=btn_column] {
+    padding: 0 6px;
+    font-size: 10.5px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;  
+    margin-bottom: 0;   
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(top, #FFF, #E6E6E6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, #FFF, #E6E6E6);
+    background-image: -o-linear-gradient(top, #FFF, #E6E6E6);
+    background-image: linear-gradient(to bottom, #FFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #CCC;
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #B3B3B3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-left: 130px;
+}
+
+#base-shortcode-for-bootstrap-region #columns input[class^=btn_column]:hover,
+#base-shortcode-for-bootstrap-region #columns input[class^=btn_column]:focus,
+#base-shortcode-for-bootstrap-region #columns input[class^=btn_column]:active {
+    color: #333;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    background-color: #E6E6E6;
+}
+
+#base-shortcode-for-bootstrap-region #columns input[class^=btn_column][disabled]:hover,
+#base-shortcode-for-bootstrap-region #columns input[class^=btn_column][disabled]:focus,
+#base-shortcode-for-bootstrap-region #columns input[class^=btn_column][disabled]:active,
+#base-shortcode-for-bootstrap-region #columns input[class^=btn_column][disabled] {
+    background-color: #e6e6e6;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    color: graytext;
+}
+
+#base-shortcode-for-bootstrap-region .file-upload-btn-bs {
+    margin: 5px 0 0 191px;
+    float: left;
+    clear: both;
+}
+
+#base-shortcode-for-bootstrap-region .btn {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #cccccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #b3b3b3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#base-shortcode-for-bootstrap-region .btn:hover,
+#base-shortcode-for-bootstrap-region .btn:focus,
+#base-shortcode-for-bootstrap-region .btn:active,
+#base-shortcode-for-bootstrap-region .btn.active,
+#base-shortcode-for-bootstrap-region .btn.disabled,
+#base-shortcode-for-bootstrap-region .btn[disabled] {
+    color: #333333;
+    background-color: #e6e6e6;
+}
+
+#base-shortcode-for-bootstrap-region .btn:active,
+#base-shortcode-for-bootstrap-region .btn.active {
+    background-color: #cccccc \9;
+}
+
+#base-shortcode-for-bootstrap-region .btn:first-child {
+}
+
+#base-shortcode-for-bootstrap-region .btn:hover,
+#base-shortcode-for-bootstrap-region .btn:focus {
+    color: #333333;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear;
+    -o-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
+}
+
+#base-shortcode-for-bootstrap-region .btn:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+#base-shortcode-for-bootstrap-region .btn.active,
+#base-shortcode-for-bootstrap-region .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#base-shortcode-for-bootstrap-region .btn.disabled,
+#base-shortcode-for-bootstrap-region .btn[disabled] {
+    cursor: default;
+    background-image: none;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#base-shortcode-for-bootstrap-region .btn-large {
+    padding: 11px 19px;
+    font-size: 17.5px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#base-shortcode-for-bootstrap-region .btn-small {
+    padding: 2px 10px;
+    font-size: 11.9px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#base-shortcode-for-bootstrap-region .btn-mini {
+    padding: 0 6px;
+    font-size: 10.5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#base-shortcode-for-bootstrap-region .btn-block {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#base-shortcode-for-bootstrap-region .btn-block + #base-shortcode-for-bootstrap-region .btn-block {
+    margin-top: 5px;
+}
+
+#base-shortcode-for-bootstrap-region input[type="submit"].btn-block,
+#base-shortcode-for-bootstrap-region input[type="reset"].btn-block,
+#base-shortcode-for-bootstrap-region input[type="button"].btn-block {
+    width: 100%;
+}
+
+#base-shortcode-for-bootstrap-region .btn-primary.active,
+#base-shortcode-for-bootstrap-region .btn-warning.active,
+#base-shortcode-for-bootstrap-region .btn-danger.active,
+#base-shortcode-for-bootstrap-region .btn-success.active,
+#base-shortcode-for-bootstrap-region .btn-info.active,
+#base-shortcode-for-bootstrap-region .btn-inverse.active {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#base-shortcode-for-bootstrap-region .btn-primary {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: #0044cc #0044cc #002a80;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+#base-shortcode-for-bootstrap-region .btn-primary:hover,
+#base-shortcode-for-bootstrap-region .btn-primary:focus,
+#base-shortcode-for-bootstrap-region .btn-primary:active,
+#base-shortcode-for-bootstrap-region .btn-primary.active,
+#base-shortcode-for-bootstrap-region .btn-primary.disabled,
+#base-shortcode-for-bootstrap-region .btn-primary[disabled] {
+    color: #ffffff;
+    background-color: #0044cc;
+}
+
+#base-shortcode-for-bootstrap-region .btn-primary:active,
+#base-shortcode-for-bootstrap-region .btn-primary.active {
+    background-color: #003399 \9;
+}
+
+#base-shortcode-for-bootstrap-region .btn-warning {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #faa732;
+    background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+    background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+    background-image: -o-linear-gradient(top, #fbb450, #f89406);
+    background-image: linear-gradient(to bottom, #fbb450, #f89406);
+    background-repeat: repeat-x;
+    border-color: #f89406 #f89406 #ad6704;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+#base-shortcode-for-bootstrap-region .btn-warning:hover,
+#base-shortcode-for-bootstrap-region .btn-warning:focus,
+#base-shortcode-for-bootstrap-region .btn-warning:active,
+#base-shortcode-for-bootstrap-region .btn-warning.active,
+#base-shortcode-for-bootstrap-region .btn-warning.disabled,
+#base-shortcode-for-bootstrap-region .btn-warning[disabled] {
+    color: #ffffff;
+    background-color: #f89406;
+}
+
+#base-shortcode-for-bootstrap-region .btn-warning:active,
+#base-shortcode-for-bootstrap-region .btn-warning.active {
+    background-color: #c67605 \9;
+}
+
+#base-shortcode-for-bootstrap-region .btn-danger {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #da4f49;
+    background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+    background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+    background-repeat: repeat-x;
+    border-color: #bd362f #bd362f #802420;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+#base-shortcode-for-bootstrap-region .btn-danger:hover,
+#base-shortcode-for-bootstrap-region .btn-danger:focus,
+#base-shortcode-for-bootstrap-region .btn-danger:active,
+#base-shortcode-for-bootstrap-region .btn-danger.active,
+#base-shortcode-for-bootstrap-region .btn-danger.disabled,
+#base-shortcode-for-bootstrap-region .btn-danger[disabled] {
+    color: #ffffff;
+    background-color: #bd362f;
+}
+
+#base-shortcode-for-bootstrap-region .btn-danger:active,
+#base-shortcode-for-bootstrap-region .btn-danger.active {
+    background-color: #942a25 \9;
+}
+
+#base-shortcode-for-bootstrap-region .btn-success {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #5bb75b;
+    background-image: -moz-linear-gradient(top, #62c462, #51a351);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+    background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+    background-image: -o-linear-gradient(top, #62c462, #51a351);
+    background-image: linear-gradient(to bottom, #62c462, #51a351);
+    background-repeat: repeat-x;
+    border-color: #51a351 #51a351 #387038;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+#base-shortcode-for-bootstrap-region .btn-success:hover,
+#base-shortcode-for-bootstrap-region .btn-success:focus,
+#base-shortcode-for-bootstrap-region .btn-success:active,
+#base-shortcode-for-bootstrap-region .btn-success.active,
+#base-shortcode-for-bootstrap-region .btn-success.disabled,
+#base-shortcode-for-bootstrap-region .btn-success[disabled] {
+    color: #ffffff;
+    background-color: #51a351;
+}
+
+#base-shortcode-for-bootstrap-region .btn-success:active,
+#base-shortcode-for-bootstrap-region .btn-success.active {
+    background-color: #408140 \9;
+}
+
+#base-shortcode-for-bootstrap-region .btn-info {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #49afcd;
+    background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+    background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+    background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+    background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+    background-repeat: repeat-x;
+    border-color: #2f96b4 #2f96b4 #1f6377;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+#base-shortcode-for-bootstrap-region .btn-info:hover,
+#base-shortcode-for-bootstrap-region .btn-info:focus,
+#base-shortcode-for-bootstrap-region .btn-info:active,
+#base-shortcode-for-bootstrap-region .btn-info.active,
+#base-shortcode-for-bootstrap-region .btn-info.disabled,
+#base-shortcode-for-bootstrap-region .btn-info[disabled] {
+    color: #ffffff;
+    background-color: #2f96b4;
+}
+
+#base-shortcode-for-bootstrap-region .btn-info:active,
+#base-shortcode-for-bootstrap-region .btn-info.active {
+    background-color: #24748c \9;
+}
+
+#base-shortcode-for-bootstrap-region .btn-inverse {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #363636;
+    background-image: -moz-linear-gradient(top, #444444, #222222);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+    background-image: -webkit-linear-gradient(top, #444444, #222222);
+    background-image: -o-linear-gradient(top, #444444, #222222);
+    background-image: linear-gradient(to bottom, #444444, #222222);
+    background-repeat: repeat-x;
+    border-color: #222222 #222222 #000000;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+#base-shortcode-for-bootstrap-region .btn-inverse:hover,
+#base-shortcode-for-bootstrap-region .btn-inverse:focus,
+#base-shortcode-for-bootstrap-region .btn-inverse:active,
+#base-shortcode-for-bootstrap-region .btn-inverse.active,
+#base-shortcode-for-bootstrap-region .btn-inverse.disabled,
+#base-shortcode-for-bootstrap-region .btn-inverse[disabled] {
+    color: #ffffff;
+    background-color: #222222;
+}
+
+#base-shortcode-for-bootstrap-region .btn-inverse:active,
+#base-shortcode-for-bootstrap-region .btn-inverse.active {
+    background-color: #080808 \9;
+}
+
+
+
+#base-shortcode-for-bootstrap-region select[name="base-shortcodes-for-bootstrap-list-select"] {
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+    width: 220px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+#base-shortcode-for-bootstrap-generator .h-10 {
+    clear: both;
+    height: 10px;
+}
+
+#base-shortcode-for-bootstrap-generator hr {
+    border: 1px solid #e7e7e7;
+}
+
+
+#base-shortcode-for-bootstrap-generator .plus {
+    background: url('../../imgs/plus.png') no-repeat top left;
+    height: 25px;
+    width: 90px;
+    padding: 4px 0px 0 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#base-shortcode-for-bootstrap-generator .del {
+    background: url('../../imgs/cross.png') no-repeat top left;
+    height: 22px;
+    width: 55px;
+    padding: 1px 0px 0 26px;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#base-shortcode-for-bootstrap-generator .loading {
+    background: url('../../imgs/process.gif') no-repeat top right;
+    height: 22px;
+    width: 22px;
+    margin-top: 3px
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../../plugins/bootstrap/img/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+
+/* White icons with optional class, or on hover/focus/active states of certain elements */
+
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:focus > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > li > a:focus > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:focus > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"],
+.dropdown-submenu:focus > a > [class*=" icon-"] {
+    background-image: url("../front/bootstrap/img/glyphicons-group-halflings-white.png");
+}
+
+.icon-glass {
+    background-position: 0      0;
+}
+
+.icon-music {
+    background-position: -24px 0;
+}
+
+.icon-search {
+    background-position: -48px 0;
+}
+
+.icon-envelope {
+    background-position: -72px 0;
+}
+
+.icon-heart {
+    background-position: -96px 0;
+}
+
+.icon-star {
+    background-position: -120px 0;
+}
+
+.icon-star-empty {
+    background-position: -144px 0;
+}
+
+.icon-user {
+    background-position: -168px 0;
+}
+
+.icon-film {
+    background-position: -192px 0;
+}
+
+.icon-th-large {
+    background-position: -216px 0;
+}
+
+.icon-th {
+    background-position: -240px 0;
+}
+
+.icon-th-list {
+    background-position: -264px 0;
+}
+
+.icon-ok {
+    background-position: -288px 0;
+}
+
+.icon-remove {
+    background-position: -312px 0;
+}
+
+.icon-zoom-in {
+    background-position: -336px 0;
+}
+
+.icon-zoom-out {
+    background-position: -360px 0;
+}
+
+.icon-off {
+    background-position: -384px 0;
+}
+
+.icon-signal {
+    background-position: -408px 0;
+}
+
+.icon-cog {
+    background-position: -432px 0;
+}
+
+.icon-trash {
+    background-position: -456px 0;
+}
+
+.icon-home {
+    background-position: 0 -24px;
+}
+
+.icon-file {
+    background-position: -24px -24px;
+}
+
+.icon-time {
+    background-position: -48px -24px;
+}
+
+.icon-road {
+    background-position: -72px -24px;
+}
+
+.icon-download-alt {
+    background-position: -96px -24px;
+}
+
+.icon-download {
+    background-position: -120px -24px;
+}
+
+.icon-upload {
+    background-position: -144px -24px;
+}
+
+.icon-inbox {
+    background-position: -168px -24px;
+}
+
+.icon-play-circle {
+    background-position: -192px -24px;
+}
+
+.icon-repeat {
+    background-position: -216px -24px;
+}
+
+.icon-refresh {
+    background-position: -240px -24px;
+}
+
+.icon-list-alt {
+    background-position: -264px -24px;
+}
+
+.icon-lock {
+    background-position: -287px -24px;
+}
+
+.icon-flag {
+    background-position: -312px -24px;
+}
+
+.icon-headphones {
+    background-position: -336px -24px;
+}
+
+.icon-volume-off {
+    background-position: -360px -24px;
+}
+
+.icon-volume-down {
+    background-position: -384px -24px;
+}
+
+.icon-volume-up {
+    background-position: -408px -24px;
+}
+
+.icon-qrcode {
+    background-position: -432px -24px;
+}
+
+.icon-barcode {
+    background-position: -456px -24px;
+}
+
+.icon-tag {
+    background-position: 0 -48px;
+}
+
+.icon-tags {
+    background-position: -25px -48px;
+}
+
+.icon-book {
+    background-position: -48px -48px;
+}
+
+.icon-bookmark {
+    background-position: -72px -48px;
+}
+
+.icon-print {
+    background-position: -96px -48px;
+}
+
+.icon-camera {
+    background-position: -120px -48px;
+}
+
+.icon-font {
+    background-position: -144px -48px;
+}
+
+.icon-bold {
+    background-position: -167px -48px;
+}
+
+.icon-italic {
+    background-position: -192px -48px;
+}
+
+.icon-text-height {
+    background-position: -216px -48px;
+}
+
+.icon-text-width {
+    background-position: -240px -48px;
+}
+
+.icon-align-left {
+    background-position: -264px -48px;
+}
+
+.icon-align-center {
+    background-position: -288px -48px;
+}
+
+.icon-align-right {
+    background-position: -312px -48px;
+}
+
+.icon-align-justify {
+    background-position: -336px -48px;
+}
+
+.icon-list {
+    background-position: -360px -48px;
+}
+
+.icon-indent-left {
+    background-position: -384px -48px;
+}
+
+.icon-indent-right {
+    background-position: -408px -48px;
+}
+
+.icon-facetime-video {
+    background-position: -432px -48px;
+}
+
+.icon-picture {
+    background-position: -456px -48px;
+}
+
+.icon-pencil {
+    background-position: 0 -72px;
+}
+
+.icon-map-marker {
+    background-position: -24px -72px;
+}
+
+.icon-adjust {
+    background-position: -48px -72px;
+}
+
+.icon-tint {
+    background-position: -72px -72px;
+}
+
+.icon-edit {
+    background-position: -96px -72px;
+}
+
+.icon-share {
+    background-position: -120px -72px;
+}
+
+.icon-check {
+    background-position: -144px -72px;
+}
+
+.icon-move {
+    background-position: -168px -72px;
+}
+
+.icon-step-backward {
+    background-position: -192px -72px;
+}
+
+.icon-fast-backward {
+    background-position: -216px -72px;
+}
+
+.icon-backward {
+    background-position: -240px -72px;
+}
+
+.icon-play {
+    background-position: -264px -72px;
+}
+
+.icon-pause {
+    background-position: -288px -72px;
+}
+
+.icon-stop {
+    background-position: -312px -72px;
+}
+
+.icon-forward {
+    background-position: -336px -72px;
+}
+
+.icon-fast-forward {
+    background-position: -360px -72px;
+}
+
+.icon-step-forward {
+    background-position: -384px -72px;
+}
+
+.icon-eject {
+    background-position: -408px -72px;
+}
+
+.icon-chevron-left {
+    background-position: -432px -72px;
+}
+
+.icon-chevron-right {
+    background-position: -456px -72px;
+}
+
+.icon-plus-sign {
+    background-position: 0 -96px;
+}
+
+.icon-minus-sign {
+    background-position: -24px -96px;
+}
+
+.icon-remove-sign {
+    background-position: -48px -96px;
+}
+
+.icon-ok-sign {
+    background-position: -72px -96px;
+}
+
+.icon-question-sign {
+    background-position: -96px -96px;
+}
+
+.icon-info-sign {
+    background-position: -120px -96px;
+}
+
+.icon-screenshot {
+    background-position: -144px -96px;
+}
+
+.icon-remove-circle {
+    background-position: -168px -96px;
+}
+
+.icon-ok-circle {
+    background-position: -192px -96px;
+}
+
+.icon-ban-circle {
+    background-position: -216px -96px;
+}
+
+.icon-arrow-left {
+    background-position: -240px -96px;
+}
+
+.icon-arrow-right {
+    background-position: -264px -96px;
+}
+
+.icon-arrow-up {
+    background-position: -289px -96px;
+}
+
+.icon-arrow-down {
+    background-position: -312px -96px;
+}
+
+.icon-share-alt {
+    background-position: -336px -96px;
+}
+
+.icon-resize-full {
+    background-position: -360px -96px;
+}
+
+.icon-resize-small {
+    background-position: -384px -96px;
+}
+
+.icon-plus {
+    background-position: -408px -96px;
+}
+
+.icon-minus {
+    background-position: -433px -96px;
+}
+
+.icon-asterisk {
+    background-position: -456px -96px;
+}
+
+.icon-exclamation-sign {
+    background-position: 0 -120px;
+}
+
+.icon-gift {
+    background-position: -24px -120px;
+}
+
+.icon-leaf {
+    background-position: -48px -120px;
+}
+
+.icon-fire {
+    background-position: -72px -120px;
+}
+
+.icon-eye-open {
+    background-position: -96px -120px;
+}
+
+.icon-eye-close {
+    background-position: -120px -120px;
+}
+
+.icon-warning-sign {
+    background-position: -144px -120px;
+}
+
+.icon-plane {
+    background-position: -168px -120px;
+}
+
+.icon-calendar {
+    background-position: -192px -120px;
+}
+
+.icon-random {
+    width: 16px;
+    background-position: -216px -120px;
+}
+
+.icon-comment {
+    background-position: -240px -120px;
+}
+
+.icon-magnet {
+    background-position: -264px -120px;
+}
+
+.icon-chevron-up {
+    background-position: -288px -120px;
+}
+
+.icon-chevron-down {
+    background-position: -313px -119px;
+}
+
+.icon-retweet {
+    background-position: -336px -120px;
+}
+
+.icon-shopping-cart {
+    background-position: -360px -120px;
+}
+
+.icon-folder-close {
+    width: 16px;
+    background-position: -384px -120px;
+}
+
+.icon-folder-open {
+    width: 16px;
+    background-position: -408px -120px;
+}
+
+.icon-resize-vertical {
+    background-position: -432px -119px;
+}
+
+.icon-resize-horizontal {
+    background-position: -456px -118px;
+}
+
+.icon-hdd {
+    background-position: 0 -144px;
+}
+
+.icon-bullhorn {
+    background-position: -24px -144px;
+}
+
+.icon-bell {
+    background-position: -48px -144px;
+}
+
+.icon-certificate {
+    background-position: -72px -144px;
+}
+
+.icon-thumbs-up {
+    background-position: -96px -144px;
+}
+
+.icon-thumbs-down {
+    background-position: -120px -144px;
+}
+
+.icon-hand-right {
+    background-position: -144px -144px;
+}
+
+.icon-hand-left {
+    background-position: -168px -144px;
+}
+
+.icon-hand-up {
+    background-position: -192px -144px;
+}
+
+.icon-hand-down {
+    background-position: -216px -144px;
+}
+
+.icon-circle-arrow-right {
+    background-position: -240px -144px;
+}
+
+.icon-circle-arrow-left {
+    background-position: -264px -144px;
+}
+
+.icon-circle-arrow-up {
+    background-position: -288px -144px;
+}
+
+.icon-circle-arrow-down {
+    background-position: -312px -144px;
+}
+
+.icon-globe {
+    background-position: -336px -144px;
+}
+
+.icon-wrench {
+    background-position: -360px -144px;
+}
+
+.icon-tasks {
+    background-position: -384px -144px;
+}
+
+.icon-filter {
+    background-position: -408px -144px;
+}
+
+.icon-briefcase {
+    background-position: -432px -144px;
+}
+
+.icon-fullscreen {
+    background-position: -456px -144px;
+}

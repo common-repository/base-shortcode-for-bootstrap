@@ -1,0 +1,19 @@
+img.img-polaroid.in.bsfb-images {
+    max-width: 98.5%;
+}
+img.img-polaroid.full-width.in.bsfb-images {
+    width: 98.5%;
+}
+
+a.in.bsfb-images-a {
+    display:block;
+}
+a.in.bsfb-images-a.pull-left {
+    float: none;
+}
+a.in.bsfb-images-a > img.noborder.in.bsfb-images {
+    border: 1px solid transparent;
+}
+a.in.bsfb-images-a:hover > img.in.bsfb-images {
+    border: 1px solid #0088CC;
+}

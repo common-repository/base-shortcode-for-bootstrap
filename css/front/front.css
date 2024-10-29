@@ -1,0 +1,39 @@
+.bsfb-text-align {
+    text-align: center;
+    margin: 4px;
+}
+.bsfb-text-align ul.dropdown-menu li {
+    text-align: left;
+}
+.bsfb-text-align div.btn-group {
+    margin-right: 0px;
+}
+.btn-group.pull-right {
+    margin-right: 0;
+}
+img.img-polaroid.in.bsfb-images {
+    max-width: 98.8%;
+}
+img.img-polaroid.full-width.in.bsfb-images {
+    width: 98.8%;
+}
+img.full-width.in.bsfb-images {
+    width: 100%;
+}
+a.in.bsfb-images-a {
+    max-width: 98.8%;
+    display: inline-block;
+}
+a.in.bsfb-images-a:hover,
+a.in.bsfb-images-a:focus {
+    border-color: #DDD;
+    -webkit-box-shadow: 0 1px 6px #6291DE;
+    -moz-box-shadow: 0 1px 6px #6291de;
+    box-shadow: 0 1px 6px #6291DE;
+}
+
+.bsfb-tab-group .nav-tabs .dropup.dropdown ul.dropdown-menu.dropup-menu {
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
